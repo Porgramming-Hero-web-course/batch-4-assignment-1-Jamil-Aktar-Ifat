@@ -4,10 +4,11 @@
   const sumArray = (array: number[]): number => {
     let sum: number = 0;
     array.forEach((num) => (sum += num));
-    // console.log(sum); // for test in the terminal
     return sum;
   };
 
   sumArray([1, 2, 3, 4, 5]);
+
+  
   //
 }
