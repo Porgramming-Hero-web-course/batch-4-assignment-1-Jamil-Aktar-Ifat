@@ -3,9 +3,7 @@
 
   const sumArray = (array: number[]): number => {
     let sum: number = 0;
-    for (let num of array) {
-      sum += num;
-    }
+    array.forEach((num) => (sum += num));
     // console.log(sum); // for test in the terminal
     return sum;
   };
